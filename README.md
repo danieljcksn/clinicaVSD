@@ -1,2 +1,2 @@
 # clinicaVSD
-Desenvolvimento de um site para uma clínica fictícia, cujo nome é 'Viver Sem Droga'
+Desenvolvimento de um site para uma clínica fictícia chamada 'Viver Sem Droga. lol
