@@ -30,9 +30,9 @@
                 <div class="nav-wrapper blue lighten-1">
                     <a href="#!" class="brand-logo">Logo</a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Sobre Nos</a></li>
-                        <li><a href="badges.html">Atendimento</a></li>
-                        <li><a href="badges.html">Contate-nos</a></li>
+                        <li><a href="#sobre">Sobre Nos</a></li>
+                        <li><a href="#atendimento">Atendimento</a></li>
+                        <li><a href="#contato">Contate-nos</a></li>
                     </ul>
                 </div>
             </nav>
@@ -48,7 +48,7 @@
 
     </div>
 
-    <div class="sobrenos">
+    <div class="sobrenos" id="sobre">
 
 
         <div class="row">
@@ -197,6 +197,10 @@
 </script>
 
 <script type="text/javascript" src="js/materialize.js">
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.scrollspy');
+        var instances = M.ScrollSpy.init(elems, options);
+    });
 </script>
 
 <script type="text/java" src="js/index.js"></script>
