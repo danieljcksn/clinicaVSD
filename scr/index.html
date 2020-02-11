@@ -28,14 +28,33 @@
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper blue lighten-1">
+
                     <a href="#!" class="brand-logo">Logo</a>
+
+                    <a href="#" data-target="slide-out" class="sidenav-trigger">
+                        <i class="material-icons">dehaze</i>
+                    </a>
+
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#sobre">Sobre Nos</a></li>
                         <li><a href="#atendimento">Atendimento</a></li>
                         <li><a href="#contato">Contate-nos</a></li>
                     </ul>
+
                 </div>
             </nav>
+
+            <ul id="slide-out" class="sidenav">
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+
+
         </div>
 
 
@@ -163,7 +182,8 @@
 
     </div>
 
-    <div class="row container">
+    <!-- FORMS Atendimento -->
+    <div class="row container" id="atendimento">
         <form class="col l12">
             <div class="row">
                 <div class="input-field col s4">
@@ -189,9 +209,27 @@
                     <label for="textarea1">Mensagem</label>
                 </div>
             </div>
-
         </form>
     </div>
+
+    <!-- Contate-nos -->
+    <div id="contato" class="row col l12 container">
+
+        <div class="col l5 API-Facebook">
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+    </div>
+
 
 
     <footer class="page-footer blue lighten-2">
@@ -226,12 +264,26 @@
 </script>
 
 <script type="text/javascript" src="js/materialize.js">
+    // Inicialização do ScrollsPy
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.scrollspy');
         var instances = M.ScrollSpy.init(elems, options);
+        throttle: 50;
+    });
+
+    // Inicialização da SideNav
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+        var instance = M.Sidenav.getInstance(elem);
     });
 </script>
 
-<script type="text/java" src="js/index.js"></script>
+<script type="text/java" src="js/index.js">
+
+
+</script>
+
+
 
 </html>
