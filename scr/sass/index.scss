@@ -7,6 +7,15 @@
     background-color: lightgrey;
 }
 
+.overflow {
+    overflow: auto;
+    overflow-x: scroll;
+    /* Hide horizontal scrollbar */
+    overflow-y: hidden;
+    /* Add vertical scrollbar */
+    -webkit-overflow-scrolling: touch;
+}
+
 html {
     scroll-behavior: smooth;
 }
