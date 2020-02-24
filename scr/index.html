@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Clínica Viver Sem Droga</title>
+    <title>Clínica Viver Sem Drogas</title>
     <!--Favicon-->
 	<link rel="shortcut icon" href="favicon/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
@@ -25,7 +25,8 @@
 	<meta name="msapplication-TileColor" content="#FFFFFF">
 	<meta name="msapplication-TileImage" content="favicon/favicon-144.png">
 	<meta name="msapplication-config" content="favicon/browserconfig.xml">
-	<!-- ****** Favicon ****** -->
+    <!-- ****** Favicon ****** -->
+    
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <!--Import Google Icon Font-->
@@ -41,35 +42,28 @@
 <body>
     <!--Navegação-->
     <header>
-        <div class="navbar-fixed">
-            <!--Barra de Navegação-->
-            <nav>
-                <div class="nav-wrapper blue lighten-1">
-                    <a href="#!" class="brand-logo">Logo</a>
-                    <a href="#" data-target="slide-out" class="sidenav-trigger">
-                        <i class="material-icons">dehaze</i>
-                    </a>
+        <!--Barra de Navegação-->
+        <nav>
+            <div class="nav-wrapper blue lighten-1">
+                <div class="container">
+                    <a href="#" class="brand-logo">Logotipo</a>
+                    <a href="#" class="sidenav-trigger" data-target="slide_out"><i class="material-icons">menu</i></a>
+                    
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="#sobre">Sobre Nos</a></li>
+                        <li class="active"><a href="#sobre">Sobre Nos</a></li>
                         <li><a href="#atendimento">Atendimento</a></li>
                         <li><a href="#contato">Contate-nos</a></li>
                     </ul>
                 </div>
-                <!--Nav-Bar Mobile-->
-                <ul id="slide-out" class="sidenav">
-                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-                    <li><a href="#!">Second Link</a></li>
-                    <li>
-                        <div class="divider"></div>
-                    </li>
-                    <li><a class="subheader">Subheader</a></li>
-                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-                </ul>
-            </nav>
-            <!--Fim Nav-Bar-->
-
-
-        </div>
+            </div>
+        </nav>
+        <!--Fim Nav-Bar-->
+        <!--Mobile Nav-->
+        <ul class="sidenav" id="slide_out">
+            <li class="active"><a href="#sobre"><i class="fas fa-users"></i>Sobre Nos</a></li>
+            <li><a href="#atendimento"><i class="fas fa-user-md"></i>Atendimento</a></li>
+            <li><a href="#contato"><i class="fas fa-envelope-open-text"></i>Contate-nos</a></li>
+        </ul>
     </header>
     <!--Fim Navegação-->
 

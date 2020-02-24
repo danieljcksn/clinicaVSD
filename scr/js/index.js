@@ -1,17 +1,13 @@
+//Sidenav
+const slide_menu = document.querySelectorAll(".sidenav");
+M.Sidenav.init(slide_menu, {});
+
 // Inicialização do ScrollsPy
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.scrollspy');
     var instances = M.ScrollSpy.init(elems, options);
     throttle: 50;
 });
-
-// Inicialização da SideNav
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-    var instance = M.Sidenav.getInstance(elem);
-});
-
 
 var slideIndex = 1;
 showSlides(slideIndex);
