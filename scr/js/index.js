@@ -1,3 +1,37 @@
+//--------------------------- Scroll Reveal ---------------------------//
+//Carousel
+ScrollReveal().reveal('#carousel', { delay: 500 });
+ScrollReveal().reveal('#carousel', { duration: 2000 });
+//Sobre
+ScrollReveal().reveal('#titulo-sobre', { delay: 500 });
+ScrollReveal().reveal('#titulo-sobre', { duration: 2000 });
+//Cards
+ScrollReveal().reveal('#cards', { delay: 700 });
+ScrollReveal().reveal('#cards', { duration: 2000 });
+
+//Equipe
+ScrollReveal().reveal('#equipe-titulo', { delay:500 });
+ScrollReveal().reveal('#equipe-titulo', { duration: 2000 });
+//Cards-Equipe
+ScrollReveal().reveal('#cards-equipe', { delay: 700 });
+ScrollReveal().reveal('#cards-equipe', { duration: 2000 });
+
+//Atendimento
+ScrollReveal().reveal('#atendimento-titulo', { delay:500 });
+ScrollReveal().reveal('#atendimento-titulo', { duration: 2000 });
+//Formulário
+ScrollReveal().reveal('#form', { delay: 700 });
+ScrollReveal().reveal('#form', { duration: 2000 });
+
+//Contato
+ScrollReveal().reveal('#contato', { delay:500 });
+ScrollReveal().reveal('#contato', { duration: 2000 });
+
+//Rodape
+ScrollReveal().reveal('#rodape', { delay:700 });
+ScrollReveal().reveal('#rodape', { duration: 2000 });
+//---------------------------------------------------------------------//
+
 //Sidenav
 const slide_menu = document.querySelectorAll(".sidenav");
 M.Sidenav.init(slide_menu, {});
