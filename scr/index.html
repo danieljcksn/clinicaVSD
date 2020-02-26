@@ -27,6 +27,8 @@
 	<meta name="msapplication-config" content="favicon/browserconfig.xml">
     <!-- ****** Favicon ****** -->
     
+    <!--Font Poppins-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <!--Import Google Icon Font-->
@@ -52,7 +54,7 @@
                     <a href="#" class="sidenav-trigger" data-target="slide_out"><i class="material-icons">menu</i></a>
                     
                     <ul class="right hide-on-med-and-down">
-                        <li class="active"><a href="#sobre">Sobre Nos</a></li>
+                        <li class="active"><a href="#sobre">Sobre Nós</a></li>
                         <li><a href="#atendimento">Atendimento</a></li>
                         <li><a href="#contato">Contate-nos</a></li>
                     </ul>
@@ -64,7 +66,7 @@
         <ul class="sidenav" id="slide_out">
      		<!--Oculta a side-nav quando algum link recebe um click-->
         	<div class="sidenav-close">
-		        <li class="active"><a href="#sobre"><i class="fas fa-users"></i>Sobre Nos</a></li>
+		        <li class="active"><a href="#sobre"><i class="fas fa-users"></i>Sobre Nós</a></li>
 		        <li><a href="#atendimento"><i class="fas fa-user-md"></i>Atendimento</a></li>
 		        <li><a href="#contato"><i class="fas fa-envelope-open-text"></i>Contate-nos</a></li>
 		    </div>
@@ -107,32 +109,28 @@
     <div class="sobrenos" id="sobre">
         <h1 id="titulo-sobre">Sobre Nós</h1>
         <div class="row" id="cards">
-            <div class="col s4">
-                <div class="card blue-grey darken-1">
+            <div class="col s4" id="card1">
+                <div class="card blue lighten-1">
                     <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</p>
+                        <span class="card-title"><i class="fas fa-book-medical"></i>&nbsp;<b>Nossa História</b></span>
+                        <p>Com mais de 10 anos no mercado, as Clínicas <b>Viver sem Drogas</b>, é uma clínica especializada no tratamento de dependentes químicos e alcoólatras. Possuímos resultados comprovados de pacientes recuperados em todos os sentidos, sendo referência nacional no combate e reabilitação da dependência química. Com uma organização especializada no direcionamento e auxilio para internações e tratamentos, ajudando familiares e dependentes.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col s4">
-                <div class="card blue-grey darken-1">
+                <div class="card blue" id="card2">
                     <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conseqasdsadsadsa</p>
+                        <span class="card-title"><i class="fab fa-gratipay"></i>&nbsp;<b>Visão</b></span>
+                        <p>A <b>Clínica de Recuperação Viver sem Drogas</b> busca tornar-se uma clínica referência em todo o Brasil no tratamento de dependência química e alcoólica. Ter credibilidade e confiança perante nossos familiares e da sociedade, com respeito e dedicação a vida.
+                            A metodologia que utilizamos na clínica é totalmente completa e está sempre sendo atualizada, sempre visando os princípios e valores, respeitando cada indivíduo e suas crenças.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col s4">
-                <div class="card blue-grey darken-1">
+                <div class="card blue darken-1" id="card3">
                     <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione </p>
+                        <span class="card-title"><i class="fas fa-bullseye"></i>&nbsp;Objetivo</span>
+                        <p>Nosso objetivo é oferecer soluções no processo de reabilitação tanto de dependentes químicos e alcoólatras, com métodos terapêuticos, solucionando transtornos mentais e emocionais causado pelo vício. Fornecemos soluções diferenciadas com qualidade superior na busca constante do equilíbrio psicológico, emocional, moral, social, tanto do paciente quanto dos que se encontram sob sua tutela, orientando também os seus familiares em todos os aspectos.</p>
                     </div>
                 </div>
             </div>
@@ -272,6 +270,7 @@
                     <i class="material-icons prefix">email</i>
                     <input id="email" type="email" class="validate">
                     <label for="email">Email</label>
+                    <span class="helper-text" data-error="Email Inválido" data-success="Ok!"></span>
                 </div>
                 <div class="input-field col s4">
                     <i class="material-icons prefix">phone</i>
@@ -282,11 +281,16 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                    <label for="textarea1">Mensagem</label>
+                    <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                    <label for="textarea1">Sua mensagem</label>
                 </div>
             </div>
         </form>
+        <div class="center-align" id="form">
+            <button class="btn blue lighten-1" type="submit" name="action" onclick="M.toast({html: 'Mensagem enviada com sucesso!'})">Enviar
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
     </div>
     <!--Atendimento - Fim-->
 
@@ -314,7 +318,7 @@
         -->
 
     <!--Rodapé-->
-    <footer class="page-footer blue lighten-2" id="rodape">
+    <footer class="page-footer blue lighten-2">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">

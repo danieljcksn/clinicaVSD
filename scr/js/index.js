@@ -5,9 +5,15 @@ ScrollReveal().reveal('#carousel', { duration: 2000 });
 //Sobre
 ScrollReveal().reveal('#titulo-sobre', { delay: 500 });
 ScrollReveal().reveal('#titulo-sobre', { duration: 2000 });
-//Cards
-ScrollReveal().reveal('#cards', { delay: 700 });
-ScrollReveal().reveal('#cards', { duration: 2000 });
+//Card1
+ScrollReveal().reveal('#card1', { delay: 700 });
+ScrollReveal().reveal('#card1', { duration: 2000 });
+//Card2
+ScrollReveal().reveal('#card2', { delay: 1000 });
+ScrollReveal().reveal('#card2', { duration: 2000 });
+//Card3
+ScrollReveal().reveal('#card3', { delay: 1300 });
+ScrollReveal().reveal('#card3', { duration: 2000 });
 
 //Equipe
 ScrollReveal().reveal('#equipe-titulo', { delay:500 });
@@ -26,10 +32,6 @@ ScrollReveal().reveal('#form', { duration: 2000 });
 //Contato
 ScrollReveal().reveal('#contato', { delay:500 });
 ScrollReveal().reveal('#contato', { duration: 2000 });
-
-//Rodape
-ScrollReveal().reveal('#rodape', { delay:700 });
-ScrollReveal().reveal('#rodape', { duration: 2000 });
 //---------------------------------------------------------------------//
 
 //Sidenav
@@ -42,6 +44,13 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.ScrollSpy.init(elems, options);
     throttle: 50;
 });
+
+
+//Contador de Caracteres
+$(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+});
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
