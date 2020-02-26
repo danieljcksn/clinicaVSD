@@ -1,31 +1,46 @@
-html{
+* {
+    box-sizing: border-box
+}
+
+html {
     scroll-behavior: smooth;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-}
-h1{
-    margin-top: 1vw;
-    font-size: 2vw;
-    font-weight: bold;
-    text-align: center;
-    color: #42A5F5;
-    text-transform: uppercase;
-}
 
+body {
+    font-family: 'Poppins', sans-serif;
+    h1 {
+        margin-top: 1vw;
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: center;
+        color: #42A5F5;
+        text-transform: uppercase;
+    }
+}
 
 //Título dos Cartões 'Sobre Nós'
-.card-title{
+.card-title {
     font-size: 2vw !important;
 }
+
 //Tamanho da Logo
-#logotipo{
+#logotipo {
     height: 1.9vw !important;
 }
 
-.carousel {
-    height: 450px;
-    background-color: gray;
+// Carousel
+//  Equipe
+.card {
+    flex: 0 0 auto;
+    .card-size {
+        width: 220px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .card-image {
+        img {
+            height: 270px;
+        }
+    }
 }
 
 .scroll {
@@ -40,75 +55,87 @@ h1{
     overflow: visible;
     overflow-x: auto;
     white-space: nowrap;
-    .card {
-        flex: 0 0 auto;
-    }
 }
 
-*{
-    box-sizing: border-box
-}
- 
 //Personalizando o formulário
+
 /* label focus color */
-.input-field input[type=text]:focus + label {
+
+.input-field input[type=text]:focus+label {
     color: #1e88e5;
 }
+
+
 /* label underline focus color */
+
 .input-field input[type=text]:focus {
-    border-bottom: 1px solid #1e88e5 ;
-    box-shadow: 0 1px 0 0 #1e88e5 ;
+    border-bottom: 1px solid #1e88e5;
+    box-shadow: 0 1px 0 0 #1e88e5;
 }
+
+
 /* valid color */
+
 .input-field input[type=text].valid {
-    border-bottom: 1px solid #1e88e5 ;
-    box-shadow: 0 1px 0 0 #1e88e5 ;
+    border-bottom: 1px solid #1e88e5;
+    box-shadow: 0 1px 0 0 #1e88e5;
 }
+
+
 /* invalid color */
+
 .input-field input[type=text].invalid {
     border-bottom: 1px solid #1e88e5;
     box-shadow: 0 1px 0 0 #1e88e5;
 }
 
 //Redes Sociais
-#titulo-social{
+#titulo-social {
     margin-top: 6vw;
 }
-#outras-redes{
+
+#outras-redes {
     font-size: 2vw;
     text-align: center;
     color: #42A5F5;
     font-weight: 400;
     margin: 0;
 }
-#facebook{
+
+#facebook {
     //Centralizando o plugin do facebook
     margin-left: 22.5%;
     width: 100%;
     display: block;
     margin-bottom: 2vw;
 }
-#redes-sociais a{
+
+#redes-sociais a {
     display: inline-block;
     text-decoration: none;
     color: #555555;
     font-size: 3vw;
     transition: ease-in-out .5s;
 }
-#instagram:hover{
+
+#instagram:hover {
     color: #F44747;
 }
-#youtube:hover{
+
+#youtube:hover {
     color: #FF0000;
 }
-#twitter:hover{
+
+#twitter:hover {
     color: #1DA1F2;
 }
+
+
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S 
 *******************************************************************************************************************/
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-}
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-}
-@media only screen and (max-width: 768px) {
-}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}

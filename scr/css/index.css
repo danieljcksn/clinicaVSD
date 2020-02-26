@@ -1,12 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-h1 {
+body h1 {
   margin-top: 1vw;
   font-size: 2vw;
   font-weight: bold;
@@ -23,38 +26,29 @@ h1 {
   height: 1.9vw !important;
 }
 
-.carousel {
-  height: 450px;
-  background-color: gray;
+.card {
+  flex: 0 0 auto;
+}
+.card .card-size {
+  width: 220px;
+  font-family: "Poppins", sans-serif;
+}
+.card .card-image img {
+  height: 270px;
 }
 
 .scroll {
   width: auto;
   height: 500px;
   -webkit-overflow-scrolling: touch;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   overflow: visible;
   overflow-x: auto;
   white-space: nowrap;
 }
-
 .scroll::-webkit-scrollbar {
   display: none;
-}
-
-.scroll .card {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 /* label focus color */
@@ -65,22 +59,19 @@ h1 {
 /* label underline focus color */
 .input-field input[type=text]:focus {
   border-bottom: 1px solid #1e88e5;
-  -webkit-box-shadow: 0 1px 0 0 #1e88e5;
-          box-shadow: 0 1px 0 0 #1e88e5;
+  box-shadow: 0 1px 0 0 #1e88e5;
 }
 
 /* valid color */
 .input-field input[type=text].valid {
   border-bottom: 1px solid #1e88e5;
-  -webkit-box-shadow: 0 1px 0 0 #1e88e5;
-          box-shadow: 0 1px 0 0 #1e88e5;
+  box-shadow: 0 1px 0 0 #1e88e5;
 }
 
 /* invalid color */
 .input-field input[type=text].invalid {
   border-bottom: 1px solid #1e88e5;
-  -webkit-box-shadow: 0 1px 0 0 #1e88e5;
-          box-shadow: 0 1px 0 0 #1e88e5;
+  box-shadow: 0 1px 0 0 #1e88e5;
 }
 
 #titulo-social {
@@ -107,8 +98,7 @@ h1 {
   text-decoration: none;
   color: #555555;
   font-size: 3vw;
-  -webkit-transition: ease-in-out .5s;
-  transition: ease-in-out .5s;
+  transition: ease-in-out 0.5s;
 }
 
 #instagram:hover {
@@ -125,4 +115,5 @@ h1 {
 
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S 
 *******************************************************************************************************************/
+
 /*# sourceMappingURL=index.css.map */
