@@ -1,3 +1,7 @@
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+});
 //--------------------------- Scroll Reveal ---------------------------//
 //Carousel
 ScrollReveal().reveal('#carousel', { delay: 500 });
