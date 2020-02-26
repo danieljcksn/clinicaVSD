@@ -96,7 +96,6 @@ body {
 
 #outras-redes {
     font-size: 2vw;
-    text-align: center;
     color: #42A5F5;
     font-weight: 400;
     margin: 0;
@@ -104,17 +103,12 @@ body {
 
 #facebook {
     //Centralizando o plugin do facebook
-    margin-left: 22.5%;
-    width: 100%;
-    display: block;
-    margin-bottom: 2vw;
 }
 
 #redes-sociais a {
-    display: inline-block;
     text-decoration: none;
     color: #555555;
-    font-size: 3vw;
+    font-size: 15vw;
     transition: ease-in-out .5s;
 }
 
