@@ -1,9 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
+  width: 100%;
+}
+
+body {
+  width: 100%;
 }
 
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S 
@@ -33,16 +34,16 @@ html {
     flex: 0 0 auto;
   }
   .card .card-size {
-    width: 220px;
+    width: 18vw;
     font-family: "Poppins", sans-serif;
   }
   .card .card-image img {
-    height: 270px;
+    height: 20vw;
   }
 
   .scroll {
     width: auto;
-    height: 500px;
+    height: 29vw;
     -webkit-overflow-scrolling: touch;
     display: flex;
     flex-wrap: nowrap;
@@ -84,8 +85,13 @@ html {
   #outras-redes {
     font-size: 2vw;
     color: #42A5F5;
-    font-weight: 400;
+    font-weight: 27vw;
     margin: 0;
+  }
+
+  .fb-page {
+    width: 30vw;
+    height: 35vw;
   }
 
   #redes-sociais a {

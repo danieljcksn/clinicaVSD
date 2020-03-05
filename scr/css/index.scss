@@ -1,9 +1,14 @@
-* {
-    box-sizing: border-box
-}
+
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
+  
+}
+
+body {
+    width: 100%;
+    
 }
 
 
@@ -40,19 +45,19 @@ html {
     .card {
         flex: 0 0 auto;
         .card-size {
-            width: 220px;
+            width: 18vw;
             font-family: 'Poppins', sans-serif;
         }
         .card-image {
             img {
-                height: 270px;
+                height: 20vw;
             }
         }
     }
     
     .scroll {
         width: auto;
-        height: 500px;
+        height: 29vw;
         &::-webkit-scrollbar {
             display: none;
         }
@@ -104,12 +109,18 @@ html {
     #outras-redes {
         font-size: 2vw;
         color: #42A5F5;
-        font-weight: 400;
+        font-weight: 27vw;
         margin: 0;
     }
     
     #facebook {
         //Centralizando o plugin do facebook
+        
+    }
+
+    .fb-page {
+        width: 30vw;
+        height: 35vw;
     }
     
     #redes-sociais a {
