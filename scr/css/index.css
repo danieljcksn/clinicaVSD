@@ -4,14 +4,15 @@
 
 html {
   scroll-behavior: smooth;
+  display: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
 body h1 {
-  margin-top: 1vw;
-  font-size: 2vw;
+  margin-top: 0.9em;
+  font-size: 1.7em;
   font-weight: bold;
   text-align: center;
   color: #42A5F5;
@@ -19,27 +20,31 @@ body h1 {
 }
 
 .card-title {
-  font-size: 2vw !important;
+  font-size: 1.5em !important;
 }
 
-#logotipo {
-  height: 1.9vw !important;
+#footer-logotipo {
+  height: 1.7em !important;
+}
+
+.carousel-item .image-carousel {
+  height: 85vw;
 }
 
 .card {
   flex: 0 0 auto;
 }
 .card .card-size {
-  width: 220px;
   font-family: "Poppins", sans-serif;
 }
 .card .card-image img {
-  height: 270px;
+  height: 13.5em;
+  width: 14.5em;
 }
 
 .scroll {
   width: auto;
-  height: 500px;
+  height: 20em;
   -webkit-overflow-scrolling: touch;
   display: flex;
   flex-wrap: nowrap;
@@ -81,14 +86,18 @@ body h1 {
 #outras-redes {
   font-size: 2vw;
   color: #42A5F5;
-  font-weight: 400;
+  font-weight: 27vw;
   margin: 0;
+}
+
+.fb-page {
+  height: 50em;
 }
 
 #redes-sociais a {
   text-decoration: none;
   color: #555555;
-  font-size: 15vw;
+  font-size: 25vw;
   transition: ease-in-out 0.5s;
 }
 
@@ -106,5 +115,17 @@ body h1 {
 
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S 
 *******************************************************************************************************************/
+@media only screen and (max-width: 992px) {
+  .sobrenos {
+    display: inline;
+  }
+
+  #redes-sociais a {
+    text-decoration: none;
+    color: #635b5b;
+    font-size: 15vw;
+    transition: ease-in-out 0.5s;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

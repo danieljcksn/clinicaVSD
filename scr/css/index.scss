@@ -4,13 +4,14 @@
 
 html {
     scroll-behavior: smooth;
+    display: border-box;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     h1 {
-        margin-top: 1vw;
-        font-size: 2vw;
+        margin-top: 0.9em;
+        font-size: 1.7em;
         font-weight: bold;
         text-align: center;
         color: #42A5F5;
@@ -20,32 +21,41 @@ body {
 
 //Título dos Cartões 'Sobre Nós'
 .card-title {
-    font-size: 2vw !important;
+    font-size: 1.5em !important;
 }
 
 //Tamanho da Logo
-#logotipo {
-    height: 1.9vw !important;
+#footer-logotipo {
+    height: 1.7em !important;
 }
 
 // Carousel
+.carousel-item {
+
+    .image-carousel {   
+        height: 85vw;  
+    }
+
+}
+
+
 //  Equipe
 .card {
     flex: 0 0 auto;
     .card-size {
-        width: 220px;
         font-family: 'Poppins', sans-serif;
     }
     .card-image {
         img {
-            height: 270px;
+            height: 13.5em;
+            width: 14.5em;
         }
     }
 }
 
 .scroll {
     width: auto;
-    height: 500px;
+    height: 20em;
     &::-webkit-scrollbar {
         display: none;
     }
@@ -97,18 +107,23 @@ body {
 #outras-redes {
     font-size: 2vw;
     color: #42A5F5;
-    font-weight: 400;
+    font-weight: 27vw;
     margin: 0;
 }
 
 #facebook {
     //Centralizando o plugin do facebook
+    
+}
+
+.fb-page {
+    height: 50em;
 }
 
 #redes-sociais a {
     text-decoration: none;
     color: #555555;
-    font-size: 15vw;
+    font-size: 25vw;
     transition: ease-in-out .5s;
 }
 
@@ -125,11 +140,32 @@ body {
 }
 
 
+
+
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S 
 *******************************************************************************************************************/
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (max-width: 992px){
+    
+.carousel-item {
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {}
+    .image-carousel {   
+        
+    }
 
-@media only screen and (max-width: 768px) {}
+}
+
+.sobrenos{
+
+    display: inline;
+
+}
+
+#redes-sociais a {
+    text-decoration: none;
+    color: #635b5b;
+    font-size: 15vw;
+    transition: ease-in-out .5s;
+}
+    
+}
