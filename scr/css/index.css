@@ -11,8 +11,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 body h1 {
-  margin-top: 1vw;
-  font-size: 2vw;
+  margin-top: 0.9em;
+  font-size: 1.7em;
   font-weight: bold;
   text-align: center;
   color: #42A5F5;
@@ -20,27 +20,31 @@ body h1 {
 }
 
 .card-title {
-  font-size: 2vw !important;
+  font-size: 1.5em !important;
 }
 
 #footer-logotipo {
-  height: 1.9vw !important;
+  height: 1.7em !important;
+}
+
+.carousel-item .image-carousel {
+  height: 85vw;
 }
 
 .card {
   flex: 0 0 auto;
 }
 .card .card-size {
-  width: 18vw;
   font-family: "Poppins", sans-serif;
 }
 .card .card-image img {
-  height: 20vw;
+  height: 13.5em;
+  width: 14.5em;
 }
 
 .scroll {
   width: auto;
-  height: 29vw;
+  height: 20em;
   -webkit-overflow-scrolling: touch;
   display: flex;
   flex-wrap: nowrap;
@@ -87,14 +91,13 @@ body h1 {
 }
 
 .fb-page {
-  width: 30vw;
-  height: 35vw;
+  height: 50em;
 }
 
 #redes-sociais a {
   text-decoration: none;
   color: #555555;
-  font-size: 15vw;
+  font-size: 25vw;
   transition: ease-in-out 0.5s;
 }
 
@@ -115,6 +118,13 @@ body h1 {
 @media only screen and (max-width: 992px) {
   .sobrenos {
     display: inline;
+  }
+
+  #redes-sociais a {
+    text-decoration: none;
+    color: #635b5b;
+    font-size: 15vw;
+    transition: ease-in-out 0.5s;
   }
 }
 
