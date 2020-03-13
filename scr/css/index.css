@@ -115,15 +115,15 @@ body h1 {
 
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S 
 *******************************************************************************************************************/
-@media only screen and (max-width: 992px) {
-  .sobrenos {
-    display: inline;
+@media only screen and (min-width: 992px) {
+  .carousel-item .image-carousel {
+    height: 40em;
   }
 
   #redes-sociais a {
     text-decoration: none;
-    color: #635b5b;
-    font-size: 15vw;
+    color: #555555;
+    font-size: 12vw;
     transition: ease-in-out 0.5s;
   }
 }
