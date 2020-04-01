@@ -42,18 +42,30 @@ body h1 {
   width: 14.5em;
 }
 
-.scroll {
+.equipe-overflow {
+  height: 20.7em;
+}
+.equipe-overflow .ctrl {
+  padding: 0;
+  height: 20.7em;
+}
+.equipe-overflow .ctrl .control {
+  height: 95%;
+  width: 80%;
+  margin: 0 10px 0 10px;
+}
+.equipe-overflow .scroll {
   width: auto;
-  height: 20em;
   -webkit-overflow-scrolling: touch;
   display: flex;
   flex-wrap: nowrap;
   overflow: visible;
   overflow-x: auto;
   white-space: nowrap;
+  scroll-behavior: smooth;
 }
-.scroll::-webkit-scrollbar {
-  display: none;
+.equipe-overflow .scroll::-webkit-scrollbar {
+  display: visible;
 }
 
 /* label focus color */
@@ -113,7 +125,7 @@ body h1 {
   color: #1DA1F2;
 }
 
-/*M E D I A  Q U E R Y  B R E A K  P O I N T S 
+/*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
 @media only screen and (min-width: 992px) {
   .carousel-item .image-carousel {

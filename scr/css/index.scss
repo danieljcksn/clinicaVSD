@@ -31,11 +31,9 @@ body {
 
 // Carousel
 .carousel-item {
-
-    .image-carousel {   
-        height: 85vw;  
+    .image-carousel {
+        height: 85vw;
     }
-
 }
 
 
@@ -53,20 +51,34 @@ body {
     }
 }
 
-.scroll {
-    width: auto;
-    height: 20em;
-    &::-webkit-scrollbar {
-        display: none;
-    }
-    -webkit-overflow-scrolling: touch;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: visible;
-    overflow-x: auto;
-    white-space: nowrap;
-}
 
+.equipe-overflow {
+    height: 20.7em;
+
+    .ctrl {
+      padding: 0;
+      height: 20.7em;
+      .control {
+        height: 95%;
+        width: 80%;
+        margin: 0 10px 0 10px;
+      }
+    }
+
+    .scroll {
+        width: auto;
+        &::-webkit-scrollbar {
+            display: visible;
+        }
+        -webkit-overflow-scrolling: touch;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: visible;
+        overflow-x: auto;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+  }
+}
 //Personalizando o formulário
 
 /* label focus color */
@@ -113,7 +125,7 @@ body {
 
 #facebook {
     //Centralizando o plugin do facebook
-    
+
 }
 
 .fb-page {
@@ -142,15 +154,15 @@ body {
 
 
 
-/*M E D I A  Q U E R Y  B R E A K  P O I N T S 
+/*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
 
 @media only screen and (min-width: 992px){
-   
 
-.carousel-item { 
 
-    .image-carousel {   
+.carousel-item {
+
+    .image-carousel {
         height: 40em;
     }
 
@@ -163,6 +175,6 @@ body {
     font-size: 12vw;
     transition: ease-in-out .5s;
 }
- 
+
 
 }
