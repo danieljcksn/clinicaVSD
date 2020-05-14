@@ -233,18 +233,20 @@
         <h1 id="atendimento-titulo">Agende uma consulta</h1>
         <form class="col l12 m12" id="form" onsubmit="return validateForm()" method="post" name="consulta">
             <div class="row">
-                <div class="input-field col l4 m4 s12">
+                <div class="input-field col l6 m6 s12">
                     <i class="material-icons prefix">account_circle</i>
                     <input id="last_name" type="text" class="validate" name="nome" required>
                     <label for="last_name">Nome</label>
                 </div>
-                <div class="input-field col l4 m4 s12">
+                <div class="input-field col l6 m6 s12">
                     <i class="material-icons prefix">email</i>
                     <input id="email" type="email" class="validate" required>
                     <label for="email">Email</label>
                     <span class="helper-text" data-error="Email Inválido" data-success="Ok!"></span>
                 </div>
-                <div class="input-field col l4 m4 s12">
+            </div>
+            <div class="row">
+                <div class="input-field col l6 m6 s12">
                     <i class="material-icons prefix">phone</i>
                     <input id="icon_telephone" type="tel"
                     class="validate" name="phone"
@@ -252,6 +254,11 @@
                     placeholder="00-00000-0000"
                     required>
                     <label for="icon_telephone">Telefone</label>
+                </div>
+                <div class="input-field col l6 m6 s12">
+                    <i class="material-icons prefix">date_range</i>
+                    <input type="text" class="datepicker">
+                    <label for="date">Data</label>
                 </div>
             </div>
             <div class="row">
@@ -297,13 +304,6 @@
     </div>
     <!--Contate-nos - Fim-->
 
-    <!--
-        <div id="redes">
-            <h1>Nossas outras redes</h1>
-            <i class="fab fa-instagram"></i>
-        </div>
-        -->
-
     <!--Rodapé-->
     <footer class="page-footer blue lighten-2">
         <div class="container">
@@ -326,7 +326,12 @@
         <div class="footer-copyright">
             <div class="container">
                 <div class="center-align">
-                    © 2020 Desenvolvido com <i class="fas fa-heart"></i> por <a href="https://www.tecnojr.com.br/" style="color: white;">Tecno Jr</a>.
+                    © 2020 Desenvolvido com
+                    <i class="fas fa-heart"></i>
+                    por
+                    <a href="https://www.tecnojr.com.br/"
+                    style="color: white;">
+                    Tecno Jr</a>.
                 </div>
             </div>
         </div>
@@ -334,7 +339,11 @@
     <!--Rodapé - Fim-->
     <!--Scripts-->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous">
+    
+    </script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/indexMaterial.js"></script>
     <script type="text/javascript" src="js/index.js"></script>

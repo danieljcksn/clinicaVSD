@@ -67,6 +67,11 @@ $(document).ready(function() {
     $('input#input_text, textarea#textarea2').characterCounter();
   });
 
+// FORMS - DATA PICKER
+$(document).ready(function(){
+$('.datepicker').datepicker();
+});
+
 //Sidenav
 const slide_menu = document.querySelectorAll(".sidenav");
 M.Sidenav.init(slide_menu, {});
