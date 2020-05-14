@@ -231,7 +231,7 @@
     <!-- Formulário Atendimento -->
     <div class="row container" id="atendimento">
         <h1 id="atendimento-titulo">Agende uma consulta</h1>
-        <form class="col l12 m12" id="form">
+        <form class="col l12 m12" id="form" method="post">
             <div class="row">
                 <div class="input-field col l4 m4 s12">
                     <i class="material-icons prefix">account_circle</i>
@@ -254,12 +254,12 @@
                 <div class="input-field col l12 m12 s12">
                     <i class="material-icons prefix">mode_edit</i>
                     <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
-                    <label for="textarea1">Sua mensagem</label>
+                    <label for="textarea1">Mensagem</label>
                 </div>
             </div>
         </form>
         <div class="center-align" id="form">
-            <button class="btn blue lighten-1" type="submit" name="action" onclick="M.toast({html: 'Mensagem enviada com sucesso!'})">Enviar
+            <button class="btn blue lighten-1" type="submit" name="action" onclick="validateForm()">Enviar
                 <i class="material-icons right">send</i>
             </button>
         </div>
@@ -333,6 +333,7 @@
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/indexMaterial.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/valid.js"></script>
 </body>
 
 </html>

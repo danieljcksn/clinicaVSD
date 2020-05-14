@@ -62,6 +62,10 @@ ScrollReveal().reveal('social-content', { duration: 2000 });
 //     throttle: 50;
 // });
 
+// FORMS
+$(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+  });
 
 //Sidenav
 const slide_menu = document.querySelectorAll(".sidenav");
