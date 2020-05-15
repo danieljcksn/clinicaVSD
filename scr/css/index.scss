@@ -131,14 +131,21 @@ body {
 }
 
 .fb-page {
-    height: 37.5em;
+    height: 38em;
 }
 
-#redes-sociais a {
-    text-decoration: none;
-    color: #555555;
-    font-size: 25vw;
-    transition: ease-in-out .5s;
+#redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        padding: 0px 0.2em 0px;
+        text-decoration: none;
+        color: #555555;
+        font-size: 4em;
+        justify-content: space-between;
+        transition: ease-in-out .5s;
+    }
 }
 
 #instagram:hover {
