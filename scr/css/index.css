@@ -49,17 +49,12 @@ body h1 {
   padding: 0;
   height: 20.7em;
 }
-.equipe-overflow .ctrl .control {
-  height: 95%;
-  width: 80%;
-  margin: 0 10px 0 10px;
-}
 .equipe-overflow .scroll {
   width: auto;
   -webkit-overflow-scrolling: touch;
   display: flex;
   flex-wrap: nowrap;
-  overflow: visible;
+  overflow: none;
   overflow-x: auto;
   white-space: nowrap;
   scroll-behavior: smooth;
@@ -106,6 +101,10 @@ body h1 {
   margin: 0;
 }
 
+#facebook {
+  padding-bottom: 2em;
+}
+
 .fb-page {
   height: 38em;
 }
@@ -141,6 +140,10 @@ body h1 {
 @media only screen and (min-width: 992px) {
   .carousel-item .image-carousel {
     height: 40em;
+  }
+
+  .fb-page {
+    height: 20em;
   }
 
   #redes-sociais a {

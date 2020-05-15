@@ -20,10 +20,3 @@ function validateForm() {
         return true
     }
 }
-
-addSpaces() {
-    // initial.replace("/([0-9]{3})/","\1 ");
-    // initial.replace("/[0-9]{3} ([0-9]{3})/","\1 ");
-    // return initial;
-    alert('msg')
-}

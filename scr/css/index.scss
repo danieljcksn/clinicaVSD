@@ -54,15 +54,9 @@ body {
 
 .equipe-overflow {
     height: 20.7em;
-
     .ctrl {
       padding: 0;
       height: 20.7em;
-      .control {
-        height: 95%;
-        width: 80%;
-        margin: 0 10px 0 10px;
-      }
     }
 
     .scroll {
@@ -73,7 +67,7 @@ body {
         -webkit-overflow-scrolling: touch;
         display: flex;
         flex-wrap: nowrap;
-        overflow: visible;
+        overflow: none;
         overflow-x: auto;
         white-space: nowrap;
         scroll-behavior: smooth;
@@ -127,7 +121,7 @@ body {
 }
 
 #facebook {
-    //Centralizando o plugin do facebook
+    padding-bottom: 2em;
 }
 
 .fb-page {
@@ -177,6 +171,9 @@ body {
 
 }
 
+.fb-page {
+    height: 20em;
+}
 
 #redes-sociais a {
     text-decoration: none;
