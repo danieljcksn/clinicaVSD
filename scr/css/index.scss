@@ -62,9 +62,6 @@ body {
     }
     .scroll {
         width: auto;
-        &::-webkit-scrollbar {
-            display: visible;
-        }
         -webkit-overflow-scrolling: touch;
         display: flex;
         flex-wrap: nowrap;
@@ -72,6 +69,12 @@ body {
         overflow-x: auto;
         white-space: nowrap;
         scroll-behavior: smooth;
+        img {
+            width: 100%;
+        }
+        &::-webkit-scrollbar {
+            display: visible;
+        }
   }
 }
 
