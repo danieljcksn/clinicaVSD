@@ -107,6 +107,10 @@ body h1 {
           box-shadow: 0 1px 0 0 #1e88e5;
 }
 
+.horario {
+  color: red !important;
+}
+
 #titulo-social {
   margin-top: 6vw;
 }

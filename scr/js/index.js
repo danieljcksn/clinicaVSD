@@ -10,6 +10,13 @@ function leftSlider() {
   scroll.scrollLeft -= 50;
 }
 
+//Selecionador de data
 $(document).ready(function(){
   $('.datepicker').datepicker();
+});
+
+
+//Horário
+$(document).ready(function(){
+  $('select').formSelect();
 });
