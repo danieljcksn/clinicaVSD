@@ -45,8 +45,10 @@ body h1 {
 .equipe-overflow {
   height: 20.7em;
 }
-.equipe-overflow .ctrl {
-  padding: 0;
+.equipe-overflow .equip-but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 20.7em;
 }
 .equipe-overflow .scroll {

@@ -54,11 +54,12 @@ body {
 
 .equipe-overflow {
     height: 20.7em;
-    .ctrl {
-      padding: 0;
-      height: 20.7em;
+    .equip-but {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20.7em;
     }
-
     .scroll {
         width: auto;
         &::-webkit-scrollbar {
@@ -73,6 +74,8 @@ body {
         scroll-behavior: smooth;
   }
 }
+
+
 //Personalizando o formulário
 
 /* label focus color */
