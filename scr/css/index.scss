@@ -69,6 +69,12 @@ body {
         overflow-x: auto;
         white-space: nowrap;
         scroll-behavior: smooth;
+        span{
+            font-size: 2vw !important; 
+        }
+        p {
+            font-size: 1vw !important;
+        }
         img {
             width: 100%;
         }

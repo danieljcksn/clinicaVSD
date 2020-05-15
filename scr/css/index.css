@@ -61,6 +61,12 @@ body h1 {
   white-space: nowrap;
   scroll-behavior: smooth;
 }
+.equipe-overflow .scroll span {
+  font-size: 2vw !important;
+}
+.equipe-overflow .scroll p {
+  font-size: 1vw !important;
+}
 .equipe-overflow .scroll img {
   width: 100%;
 }
