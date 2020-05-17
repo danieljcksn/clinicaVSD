@@ -121,10 +121,6 @@ body h1 {
           box-shadow: 0 1px 0 0 #1e88e5;
 }
 
-.horario {
-  color: red !important;
-}
-
 #titulo-social {
   margin-top: 6vw;
 }
@@ -183,9 +179,6 @@ body h1 {
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
 @media only screen and (min-width: 992px) {
-  .carousel-item .image-carousel {
-    width: 100% !important;
-  }
   .fb-page {
     height: 20em;
   }

@@ -1,15 +1,13 @@
-* {
-    box-sizing: border-box
-}
+*{box-sizing: border-box;}
 
-html {
+html{
     scroll-behavior: smooth;
     display: border-box;
 }
 
-body {
+body{
     font-family: 'Poppins', sans-serif;
-    h1 {
+    h1{
         margin-top: 0.9em;
         font-size: 1.7em;
         font-weight: bold;
@@ -20,31 +18,23 @@ body {
 }
 
 //Título dos Cartões 'Sobre Nós'
-.card-title {
-    font-size: 1.5em !important;
-}
+.card-title{font-size: 1.5em !important;}
 
 //Tamanho da Logo
-#footer-logotipo {
-    height: 1.7em !important;
-}
+#footer-logotipo{height: 1.7em !important;}
 
 // Carousel
-.carousel-item {
-    .image-carousel {
-        width: 100% !important;
-    }
+.carousel-item{
+    .image-carousel{width: 100% !important;}
 }
 
 
 //  Equipe
-.card {
+.card{
     flex: 0 0 auto;
-    .card-size {
-        font-family: 'Poppins', sans-serif;
-    }
-    .card-image {
-        img {
+    .card-size{font-family: 'Poppins', sans-serif;}
+    .card-image{
+        img{
             height: 13.5em;
             width: 14.5em;
         }
@@ -52,15 +42,15 @@ body {
 }
 
 
-.equipe-overflow {
+.equipe-overflow{
     height: 20.7em;
-    .equip-but {
+    .equip-but{
         display: flex;
         align-items: center;
         justify-content: center;
         height: 20.7em;
     }
-    .scroll {
+    .scroll{
         width: auto;
         -webkit-overflow-scrolling: touch;
         display: flex;
@@ -69,82 +59,54 @@ body {
         overflow-x: auto;
         white-space: nowrap;
         scroll-behavior: smooth;
-        span{
-            font-size: 2vw !important; 
-        }
-        p {
-            font-size: 1vw !important;
-        }
-        img {
-            width: 100%;
-        }
-        &::-webkit-scrollbar {
-            display: visible;
-        }
+        span{font-size: 2vw !important;}
+        p{font-size: 1vw !important;}
+        img{width: 100%;}
+        &::-webkit-scrollbar{display: visible;}
   }
 }
 
 
 //Personalizando o formulário
-
 /* label focus color */
-
-.input-field input[type=text]:focus+label {
-    color: #1e88e5;
-}
-
+.input-field input[type=text]:focus+label{color: #1e88e5;}
 
 /* label underline focus color */
-
-.input-field input[type=text]:focus {
+.input-field input[type=text]:focus{
     border-bottom: 1px solid #1e88e5;
     box-shadow: 0 1px 0 0 #1e88e5;
 }
-
 
 /* valid color */
-
-.input-field input[type=text].valid {
+.input-field input[type=text].valid{
     border-bottom: 1px solid #1e88e5;
     box-shadow: 0 1px 0 0 #1e88e5;
 }
-
 
 /* invalid color */
-
-.input-field input[type=text].invalid {
+.input-field input[type=text].invalid{
     border-bottom: 1px solid #1e88e5;
     box-shadow: 0 1px 0 0 #1e88e5;
 }
 
-.horario{
-    color: red !important;
-}
-//Redes Sociais
-#titulo-social {
-    margin-top: 6vw;
-}
 
-#outras-redes {
+//Redes Sociais
+#titulo-social{margin-top: 6vw;}
+#outras-redes{
     font-size: 2vw;
     color: #42A5F5;
     font-weight: 27vw;
     margin: 0;
 }
 
-#facebook {
-    padding-bottom: 2em;
-}
+#facebook{padding-bottom: 2em;}
+.fb-page{height: 38em;}
 
-.fb-page {
-    height: 38em;
-}
-
-#redes-sociais {
+#redes-sociais{
     display: flex;
     align-items: center;
     justify-content: center;
-    a {
+    a{
         padding: 0px 0.2em 0px;
         text-decoration: none;
         color: #555555;
@@ -154,17 +116,10 @@ body {
     }
 }
 
-#instagram:hover {
-    color: #F44747;
-}
-
-#youtube:hover {
-    color: #FF0000;
-}
-
-#twitter:hover {
-    color: #1DA1F2;
-}
+//Muda a cor quando coloca o mouse sobre
+#instagram:hover{color: #F44747;}
+#youtube:hover{color: #FF0000;}
+#twitter:hover{color: #1DA1F2;}
 
 
 
@@ -173,26 +128,12 @@ body {
 *******************************************************************************************************************/
 
 @media only screen and (min-width: 992px){
+    .fb-page{height: 20em;}
 
-
-.carousel-item {
-
-    .image-carousel {
-        width: 100% !important;
+    #redes-sociais a{
+        text-decoration: none;
+        color: #555555;
+        font-size: 12vw;
+        transition: ease-in-out .5s;
     }
-
-}
-
-.fb-page {
-    height: 20em;
-}
-
-#redes-sociais a {
-    text-decoration: none;
-    color: #555555;
-    font-size: 12vw;
-    transition: ease-in-out .5s;
-}
-
-
 }
