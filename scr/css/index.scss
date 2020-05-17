@@ -32,7 +32,7 @@ body {
 // Carousel
 .carousel-item {
     .image-carousel {
-        height: 85vw;
+        width: 100% !important;
     }
 }
 
@@ -178,7 +178,7 @@ body {
 .carousel-item {
 
     .image-carousel {
-        height: 40em;
+        width: 100% !important;
     }
 
 }
