@@ -15,8 +15,16 @@ $(document).ready(function(){
   $('.datepicker').datepicker();
 });
 
-
 //Horário
 $(document).ready(function(){
   $('select').formSelect();
+});
+
+// Animação
+const heart = document.querySelector('#heart')
+
+anime({
+  targets: heart,
+  scale: 1.1,
+  loop: true
 });
