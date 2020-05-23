@@ -2,12 +2,12 @@
 // Slider da Equipe
 function rightSlider() {
   const scroll = document.getElementById('cards-equipe')
-  scroll.scrollLeft += 50;
+  scroll.scrollLeft += 300;
 }
 
 function leftSlider() {
   const scroll = document.getElementById('cards-equipe')
-  scroll.scrollLeft -= 50;
+  scroll.scrollLeft -= 300;
 }
 
 //Selecionador de data

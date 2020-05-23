@@ -17,12 +17,10 @@ body{
     }
 }
 
-// .dark {
-//     position: absolute;
-//     top: 1.1em;
-//     right: 0.6em;
-// }
-
+//Padding na parte superior. Assim, scroll não irá parar exatamente em cima do título
+#atendimento-titulo, #titulo-sobre, #atendimento-titulo, #titulo-social{
+    padding-top: 3vw !important; 
+}
 //Título dos Cartões 'Sobre Nós'
 .card-title{font-size: 1.5em !important;}
 
@@ -34,17 +32,19 @@ body{
     .image-carousel{width: 100% !important;}
 }
 
+
 //  Equipe
 .card{
     flex: 0 0 auto;
     .card-size{font-family: 'Poppins', sans-serif;}
-    .card-image{
+    /*.card-image{
         img{
             height: 13.5em;
             width: 14.5em;
         }
-    }
+    }*/
 }
+
 
 .equipe-overflow{
     height: 20.7em;
@@ -70,6 +70,7 @@ body{
   }
 }
 
+
 //Personalizando o formulário
 /* label focus color */
 .input-field input[type=text]:focus+label{color: #1e88e5;}
@@ -91,6 +92,7 @@ body{
     border-bottom: 1px solid #1e88e5;
     box-shadow: 0 1px 0 0 #1e88e5;
 }
+
 
 //Redes Sociais
 #titulo-social{margin-top: 6vw;}
@@ -138,4 +140,15 @@ body{
         font-size: 12vw;
         transition: ease-in-out .5s;
     }
+}
+
+@media only screen and (max-width: 992px){
+    //Oculta os botões de passagem para direita - esquerda do slider.
+    #btn-slider{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
 }
