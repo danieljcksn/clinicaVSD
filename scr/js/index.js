@@ -12,10 +12,12 @@ function leftSlider() {
 // Remove Botões no Mobile
 const width = screen.width;
 const height = screen.height;
+const botaoL = document.getElementById('btnL')
+const botaoR = document.getElementById('btnR')
 
 if (width < 768) {
-    let botoes = document.querySelector('.equip-but')
-    botoes.remove()
+    botaoL.remove()
+    botaoR.remove()
     // alert("A resolução da tela do seu monitor é " + width + "x" + height + "");
 
 }
