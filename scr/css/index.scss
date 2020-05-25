@@ -32,6 +32,11 @@ body{
     .image-carousel{width: 100% !important;}
 }
 
+//Exibir o carousel mobile apenas quando ativado nos break points.
+.carousel-mobile{
+    display: none;
+}
+
 
 //  Equipe
 .card{
@@ -103,8 +108,12 @@ body{
     margin: 0;
 }
 
-#facebook{padding-bottom: 2em;}
-.fb-page{height: 38em;}
+#facebook{
+    padding-bottom: 2em;
+}
+.fb-page{height: 38em;
+    margin-left: 32% ;
+}
 
 #redes-sociais{
     display: flex;
@@ -131,24 +140,39 @@ body{
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
 
-@media only screen and (min-width: 992px){
-    .fb-page{height: 20em;}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .fb-page{
+        height: 20em;
+    }
 
     #redes-sociais a{
         text-decoration: none;
         color: #555555;
-        font-size: 12vw;
+        font-size: 9em;
         transition: ease-in-out .5s;
     }
-}
-
-@media only screen and (max-width: 992px){
     //Oculta os botões de passagem para direita - esquerda do slider.
     #btn-slider{
         display: none;
     }
+
+    //Oculta o carousel definido para desktop.
+    .carousel-desktop{display: none;}
+    .carousel-mobile{
+        display: block;
+    }
+    
 }
 
 @media only screen and (max-width: 768px){
-    
+    //Oculta os botões de passagem para direita - esquerda do slider.
+    #btn-slider{
+        display: none;
+    }
+
+    //Oculta o carousel definido para desktop.
+    .carousel-desktop{display: none;}
+    .carousel-mobile{
+        display: block;
+    }
 }
