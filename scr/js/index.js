@@ -9,6 +9,16 @@ function leftSlider() {
   const scroll = document.getElementById('cards-equipe')
   scroll.scrollLeft -= 300;
 }
+// Remove Botões no Mobile
+const width = screen.width;
+const height = screen.height;
+
+if (width < 768) {
+    let botoes = document.querySelector('.equip-but')
+    botoes.remove()
+    // alert("A resolução da tela do seu monitor é " + width + "x" + height + "");
+
+}
 
 //Selecionador de data
 $(document).ready(function(){
