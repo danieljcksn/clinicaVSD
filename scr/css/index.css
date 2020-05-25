@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -9,9 +8,8 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 body h1 {
   margin-top: 0.9em;
   font-size: 1.7em;
@@ -42,19 +40,16 @@ body h1 {
 }
 
 .card {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  flex: 0 0 auto;
   /*.card-image{
-        img{
-            height: 13.5em;
-            width: 14.5em;
-        }
-    }*/
+      img{
+          height: 13.5em;
+          width: 14.5em;
+      }
+  }*/
 }
-
 .card .card-size {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #equipe-titulo {
@@ -64,46 +59,31 @@ body h1 {
 .equipe-overflow {
   height: 20.7em;
 }
-
 .equipe-overflow .equip-but {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   height: 20.7em;
 }
-
 .equipe-overflow .scroll {
   width: auto;
   -webkit-overflow-scrolling: touch;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   overflow: none;
   overflow-x: auto;
   white-space: nowrap;
   scroll-behavior: smooth;
 }
-
 .equipe-overflow .scroll span {
   font-size: 2vw !important;
 }
-
 .equipe-overflow .scroll p {
   font-size: 1vw !important;
 }
-
 .equipe-overflow .scroll img {
   width: 100%;
 }
-
 .equipe-overflow .scroll::-webkit-scrollbar {
   display: visible;
 }
@@ -116,22 +96,19 @@ body h1 {
 /* label underline focus color */
 .input-field input[type=text]:focus {
   border-bottom: 1px solid #1e88e5;
-  -webkit-box-shadow: 0 1px 0 0 #1e88e5;
-          box-shadow: 0 1px 0 0 #1e88e5;
+  box-shadow: 0 1px 0 0 #1e88e5;
 }
 
 /* valid color */
 .input-field input[type=text].valid {
   border-bottom: 1px solid #1e88e5;
-  -webkit-box-shadow: 0 1px 0 0 #1e88e5;
-          box-shadow: 0 1px 0 0 #1e88e5;
+  box-shadow: 0 1px 0 0 #1e88e5;
 }
 
 /* invalid color */
 .input-field input[type=text].invalid {
   border-bottom: 1px solid #1e88e5;
-  -webkit-box-shadow: 0 1px 0 0 #1e88e5;
-          box-shadow: 0 1px 0 0 #1e88e5;
+  box-shadow: 0 1px 0 0 #1e88e5;
 }
 
 #titulo-social {
@@ -155,27 +132,17 @@ body h1 {
 }
 
 #redes-sociais {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 #redes-sociais a {
   padding: 0px 0.2em 0px;
   text-decoration: none;
   color: #555555;
   font-size: 4em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-transition: ease-in-out .5s;
-  transition: ease-in-out .5s;
+  justify-content: space-between;
+  transition: ease-in-out 0.5s;
 }
 
 #instagram:hover {
@@ -196,24 +163,26 @@ body h1 {
   .fb-page {
     height: 20em;
   }
+
   #redes-sociais a {
     text-decoration: none;
     color: #555555;
     font-size: 9em;
-    -webkit-transition: ease-in-out .5s;
-    transition: ease-in-out .5s;
+    transition: ease-in-out 0.5s;
   }
+
   #btn-slider {
     display: none;
   }
+
   .carousel-desktop {
     display: none;
   }
+
   .carousel-mobile {
     display: block;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .equipe-overflow {
     display: inline;
@@ -222,21 +191,27 @@ body h1 {
     width: 0px;
     height: 0px;
   }
+
   #btn-slider {
     display: none;
   }
+
   #heart {
     width: 55vw;
     height: 27vh;
   }
+
   .carousel-desktop {
     display: none;
   }
+
   .carousel-mobile {
     display: block;
   }
+
   #redes-sociais a {
     font-size: 7em;
   }
 }
+
 /*# sourceMappingURL=index.css.map */

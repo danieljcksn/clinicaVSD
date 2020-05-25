@@ -36,5 +36,7 @@ const heart = document.querySelector('#heart')
 anime({
   targets: heart,
   scale: 1.1,
-  loop: true
+  loop: true,
+  direction: 'alternate',
+  easing: 'linear'
 });
