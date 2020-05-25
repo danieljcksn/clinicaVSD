@@ -19,7 +19,7 @@ body{
 
 //Padding na parte superior. Assim, scroll não irá parar exatamente em cima do título
 #atendimento-titulo, #titulo-sobre, #atendimento-titulo, #titulo-social{
-    padding-top: 3vw !important; 
+    padding-top: 3vw !important;
 }
 //Título dos Cartões 'Sobre Nós'
 .card-title{font-size: 1.5em !important;}
@@ -161,13 +161,18 @@ body{
     .carousel-mobile{
         display: block;
     }
-    
+
 }
 
 @media only screen and (max-width: 768px){
     //Oculta os botões de passagem para direita - esquerda do slider.
     #btn-slider{
         display: none;
+    }
+
+    #heart {
+      width: 55vw;
+      height: 27vh;
     }
 
     //Oculta o carousel definido para desktop.
