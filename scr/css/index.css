@@ -204,6 +204,10 @@ body h1 {
   .carousel-mobile {
     display: block;
   }
+
+  #redes-sociais a {
+    font-size: 7em;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
