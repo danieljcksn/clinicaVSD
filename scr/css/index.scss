@@ -73,7 +73,10 @@ body{
         scroll-behavior: smooth;
         span{font-size: 2vw !important;}
         p{font-size: 1vw !important;}
-        img{width: 100%;}
+        img{
+            width: 100%;
+            height: 13.7em;
+        }
         &::-webkit-scrollbar{display: visible;}
   }
 }
