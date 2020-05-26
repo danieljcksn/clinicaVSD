@@ -15,7 +15,7 @@ const height = screen.height;
 const botaoL = document.getElementById('btnL')
 const botaoR = document.getElementById('btnR')
 
-if (width < 768) {
+if (width <= 768) {
     botaoL.remove()
     botaoR.remove()
     // alert("A resolução da tela do seu monitor é " + width + "x" + height + "");

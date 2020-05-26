@@ -142,44 +142,12 @@ body h1 {
 
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  .fb-page {
-    height: 20em;
-  }
-
-  #outras-redes {
-    height: 38em;
-  }
-
-  #insta_twitter {
-    height: 19em;
-  }
-  #insta_twitter a {
-    text-decoration: none;
-    color: #555555;
-    font-size: 9em;
-    transition: ease-in-out 0.5s;
-    height: 100%;
-  }
-
-  #btn-slider {
-    display: none;
-  }
-
-  .carousel-desktop {
-    display: none;
-  }
-
-  .carousel-mobile {
-    display: block;
-  }
-}
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
   .equipe-overflow .scroll span {
     font-size: 1.5em !important;
   }
   .equipe-overflow .scroll p {
-    font-size: 1em !important;
+    font-size: 0.9em !important;
   }
   .equipe-overflow .scroll img {
     width: 100%;
