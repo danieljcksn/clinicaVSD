@@ -41,12 +41,6 @@ body h1 {
 
 .card {
   flex: 0 0 auto;
-  /*.card-image{
-      img{
-          height: 13.5em;
-          width: 14.5em;
-      }
-  }*/
 }
 .card .card-size {
   font-family: "Poppins", sans-serif;
@@ -147,8 +141,17 @@ body h1 {
     font-size: 1rem;
   }
 
-  #footer-logotipo {
-    height: 1.5em !important;
+  .carousel-desktop {
+    display: none;
+  }
+
+  .carousel-mobile {
+    display: block;
+  }
+
+  #heart {
+    width: 55vw;
+    height: 27vh;
   }
 
   .equipe-overflow .scroll span {
@@ -163,19 +166,6 @@ body h1 {
   }
   .equipe-overflow .scroll::-webkit-scrollbar {
     display: visible;
-  }
-
-  #heart {
-    width: 55vw;
-    height: 27vh;
-  }
-
-  .carousel-desktop {
-    display: none;
-  }
-
-  .carousel-mobile {
-    display: block;
   }
 
   .fb {
@@ -194,6 +184,10 @@ body h1 {
   #insta_twitter a {
     font-size: 7em;
     text-align: center;
+  }
+
+  #footer-logotipo {
+    height: 1.5em !important;
   }
 }
 

@@ -1,3 +1,4 @@
+// RESET GERAL
 *{box-sizing: border-box;}
 
 html{
@@ -5,6 +6,7 @@ html{
     display: border-box;
 }
 
+// FONTES DO TÍTULOS
 body{
     font-family: 'Poppins', sans-serif;
     h1{
@@ -42,12 +44,6 @@ body{
 .card{
     flex: 0 0 auto;
     .card-size{font-family: 'Poppins', sans-serif;}
-    /*.card-image{
-        img{
-            height: 13.5em;
-            width: 14.5em;
-        }
-    }*/
 }
 
 #equipe-titulo{
@@ -134,17 +130,30 @@ body{
 *******************************************************************************************************************/
 
 @media only screen and (max-width: 770px){
-    nav .brand-logo {
-        font-size: 1rem;
+
+    // NAV
+    nav {
+        .brand-logo {
+            font-size: 1rem;
+        }
     }
 
-    #footer-logotipo {
-        height: 1.5em !important;
+    // CAROUSEL
+    //Oculta o carousel definido para desktop.
+    .carousel-desktop{display: none;}
+    .carousel-mobile{
+        display: block;
     }
 
+    // ANIMACAO
+    #heart {
+      width: 55vw;
+      height: 27vh;
+    }
+
+    // EQUIPE
     .equipe-overflow{
         .scroll{
-            // width: auto;
             span{font-size: 1.5em !important;}
             p{font-size: 0.9em !important;}
             img{
@@ -155,17 +164,7 @@ body{
       }
     }
 
-    #heart {
-      width: 55vw;
-      height: 27vh;
-    }
-
-    //Oculta o carousel definido para desktop.
-    .carousel-desktop{display: none;}
-    .carousel-mobile{
-        display: block;
-    }
-
+    // REDES SOCIAIS
     .fb {
         height: 35em;
     }
@@ -182,5 +181,10 @@ body{
            font-size: 7em;
            text-align: center;
         }
+    }
+
+    // FOOTER
+    #footer-logotipo {
+        height: 1.5em !important;
     }
 }

@@ -18,7 +18,6 @@ const botaoR = document.getElementById('btnR')
 if (width <= 768) {
     botaoL.remove()
     botaoR.remove()
-    // alert("A resolução da tela do seu monitor é " + width + "x" + height + "");
 }
 
 // Animação
