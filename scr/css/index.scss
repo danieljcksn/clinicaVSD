@@ -27,7 +27,7 @@ body{
 //Tamanho da Logo
 #footer-logotipo{height: 1.7em !important;}
 
-// Carousel
+//Carousel
 .carousel-item{
     .image-carousel{width: 100% !important;}
 }
@@ -38,7 +38,7 @@ body{
 }
 
 
-//  Equipe
+//Equipe
 .card{
     flex: 0 0 auto;
     .card-size{font-family: 'Poppins', sans-serif;}
@@ -50,10 +50,12 @@ body{
     }*/
 }
 
+//Adicionando margem superior para que a animação de scroll não pare exatamente acima do título
 #equipe-titulo{
     margin-top: 8vw !important;
 }
 
+//Overflow dos cards da equipe
 .equipe-overflow{
     height: 20.7em;
     .equip-but{
@@ -82,19 +84,16 @@ body{
 //Personalizando o formulário
 /* label focus color */
 .input-field input[type=text]:focus+label{color: #1e88e5;}
-
 /* label underline focus color */
 .input-field input[type=text]:focus{
     border-bottom: 1px solid #1e88e5;
     box-shadow: 0 1px 0 0 #1e88e5;
 }
-
 /* valid color */
 .input-field input[type=text].valid{
     border-bottom: 1px solid #1e88e5;
     box-shadow: 0 1px 0 0 #1e88e5;
 }
-
 /* invalid color */
 .input-field input[type=text].invalid{
     border-bottom: 1px solid #1e88e5;
@@ -110,14 +109,11 @@ body{
     font-weight: 27vw;
     margin: 0;
 }
-
-#facebook{
-    padding-bottom: 2em;
-}
-.fb-page{height: 38em;
+#facebook{padding-bottom: 2em;}
+.fb-page{
+    height: 38em;
     margin-left: 32% ;
 }
-
 #redes-sociais{
     display: flex;
     align-items: center;
@@ -142,11 +138,8 @@ body{
 
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
-
 @media only screen and (min-width: 768px) and (max-width: 992px){
-    .fb-page{
-        height: 20em;
-    }
+    .fb-page{height: 20em;}
 
     #redes-sociais a{
         text-decoration: none;
@@ -154,6 +147,7 @@ body{
         font-size: 9em;
         transition: ease-in-out .5s;
     }
+
     //Oculta os botões de passagem para direita - esquerda do slider.
     #btn-slider{
         display: none;
@@ -161,10 +155,7 @@ body{
 
     //Oculta o carousel definido para desktop.
     .carousel-desktop{display: none;}
-    .carousel-mobile{
-        display: block;
-    }
-
+    .carousel-mobile{display: block;}
 }
 
 @media only screen and (max-width: 768px){
@@ -178,22 +169,17 @@ body{
     }
 
     //Oculta os botões de passagem para direita - esquerda do slider.
-    #btn-slider{
-        display: none;
-    }
+    #btn-slider{display: none;}
 
-    #heart {
+    #heart{
       width: 55vw;
       height: 27vh;
     }
 
     //Oculta o carousel definido para desktop.
     .carousel-desktop{display: none;}
-    .carousel-mobile{
-        display: block;
-    }
+    .carousel-mobile{display: block;}
 
-    #redes-sociais a {
-        font-size: 7em;
-    }
+    //Define novo tamanho de fontes.
+    #redes-sociais a {font-size: 7em;}
 }

@@ -1,424 +1,420 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
+    <head>
+        <title>Clínica Viver Sem Drogas</title>
+        <meta charset="utf-8">
+        <!--Favicon-->
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+        <link rel="apple-touch-icon" href="favicon/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+        <meta name="msapplication-config" content="favicon/browserconfig.xml">
+        <!-- ****** Favicon ****** -->
 
-<head>
-    <title>Clínica Viver Sem Drogas</title>
-    <meta charset="utf-8">
-    <!--Favicon-->
-    <link rel="shortcut icon" href="favicon/favicon.ico">
-    <link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
-    <link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
-    <link rel="apple-touch-icon" href="favicon/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="favicon/favicon-144.png">
-    <meta name="msapplication-config" content="favicon/browserconfig.xml">
-    <!-- ****** Favicon ****** -->
+        <!--Font Poppins-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Meu Arquivo css-->
+        <link type="text/css" rel="stylesheet" href="css/index.css" />
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <!--Scroll Animation-->
+        <script src="https://unpkg.com/scrollreveal@4"></script>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 
-    <!--Font Poppins-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Meu Arquivo css-->
-    <link type="text/css" rel="stylesheet" href="css/index.css" />
-    <!--Font Awesome-->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <!--Scroll Animation-->
-    <script src="https://unpkg.com/scrollreveal@4"></script>
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v6.0"></script>
-    <!--Navegação-->
-    <header id="inicio">
-        <!--Barra de Navegação-->
-        <nav>
-            <div class="nav-wrapper blue lighten-1">
-                <div class="container">
-                    <a href="#" class="brand-logo"><i class="material-icons left">local_hospital</i>VIVER SEM DROGAS</a>
-                    <a href="#" class="sidenav-trigger" data-target="slide_out"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li class="active"><a href="#sobre">Sobre Nós</a></li>
-                        <li><a href="#atendimento">Atendimento</a></li>
-                        <li><a href="#contato">Siga-nos</a></li>
-                    </ul>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v6.0"></script>
+        <!--Navegação-->
+        <header id="inicio">
+            <!--Barra de Navegação-->
+            <nav>
+                <div class="nav-wrapper blue lighten-1">
+                    <div class="container">
+                        <a href="#" class="brand-logo"><i class="material-icons left">local_hospital</i>VIVER SEM DROGAS</a>
+                        <a href="#" class="sidenav-trigger" data-target="slide_out"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="active"><a href="#sobre">Sobre Nós</a></li>
+                            <li><a href="#atendimento">Atendimento</a></li>
+                            <li><a href="#contato">Siga-nos</a></li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+            <!--Fim Nav-Bar-->
+            <!--Mobile Nav-->
+            <ul class="sidenav" id="slide_out">
+                <!--Oculta a side-nav quando algum link recebe um click-->
+                <div class="sidenav-close">
+                    <li class="active"><a href="#sobre"><i class="fas fa-users"></i>Sobre Nós</a></li>
+                    <li><a href="#atendimento"><i class="fas fa-user-md"></i>Atendimento</a></li>
+                    <li><a href="#contato"><i class="fas fa-envelope-open-text"></i>Siga-nos</a></li>
+                </div>
+            </ul>
+        </header>
+        <!--Fim Navegação-->
+        <!-- <div class="switch dark">
+            <label>
+                <input type="checkbox">
+                <span class="lever"></span>
+            </label>
+        </div> -->
+        <!--Carousel Desktop-->
+        <div class="carousel-desktop">
+            <div class="carousel carousel-slider" id="carousel">
+                <a class="carousel-item" href="#one!">
+                    <img src="image/carousel1b.jpg"
+                    class="image-carousel"
+                    alt="Clinica de Reabilitação Química e Alcoólica">
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="image/carousel2b.jpg"
+                    class="image-carousel"
+                    alt="Com Especialistas de Alta Qualidade">
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="image/carousel3b.jpg"
+                    class="image-carousel"
+                    alt="Acompanhamento Terapeutico e Psicológico">
+                </a>
+                <a class="carousel-item" href="#four!">
+                    <img src="image/carousel4b.jpg"
+                    class="image-carousel"
+                    alt="Estrutura Moderna e Aconchegante">
+                </a>
             </div>
-        </nav>
-        <!--Fim Nav-Bar-->
-        <!--Mobile Nav-->
-        <ul class="sidenav" id="slide_out">
-            <!--Oculta a side-nav quando algum link recebe um click-->
-            <div class="sidenav-close">
-                <li class="active"><a href="#sobre"><i class="fas fa-users"></i>Sobre Nós</a></li>
-                <li><a href="#atendimento"><i class="fas fa-user-md"></i>Atendimento</a></li>
-                <li><a href="#contato"><i class="fas fa-envelope-open-text"></i>Siga-nos</a></li>
+        </div>
+
+        <!-- Carousel Mobile -->
+        <div class="carousel-mobile">
+            <div class="carousel carousel-slider" id="carousel">
+                <a class="carousel-item" href="#one!">
+                    <img src="image/carousel1m.jpg"
+                    class="image-carousel"
+                    alt="Clinica de Reabilitação Química e Alcoólica">
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="image/carousel2m.jpg"
+                    class="image-carousel"
+                    alt="Com Especialistas de Alta Qualidade">
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="image/carousel3m.jpg"
+                    class="image-carousel"
+                    alt="Acompanhamento Terapeutico e Psicológico">
+                </a>
+                <a class="carousel-item" href="#four!">
+                    <img src="image/carousel4m.jpg"
+                    class="image-carousel"
+                    alt="Estrutura Moderna e Aconchegante">
+                </a>
             </div>
-        </ul>
-    </header>
-    <!--Fim Navegação-->
-    <!-- <div class="switch dark">
-        <label>
-            <input type="checkbox">
-            <span class="lever"></span>
-        </label>
-     </div> -->
-    <!--Carousel Desktop-->
-    <div class="carousel-desktop">
-        <div class="carousel carousel-slider" id="carousel">
-            <a class="carousel-item" href="#one!">
-                <img src="image/carousel1b.jpg"
-                class="image-carousel"
-                alt="Clinica de Reabilitação Química e Alcoólica">
-            </a>
-            <a class="carousel-item" href="#two!">
-                <img src="image/carousel2b.jpg"
-                class="image-carousel"
-                alt="Com Especialistas de Alta Qualidade">
-            </a>
-            <a class="carousel-item" href="#three!">
-                <img src="image/carousel3b.jpg"
-                class="image-carousel"
-                alt="Acompanhamento Terapeutico e Psicológico">
-            </a>
-            <a class="carousel-item" href="#four!">
-                <img src="image/carousel4b.jpg"
-                class="image-carousel"
-                alt="Estrutura Moderna e Aconchegante">
-            </a>
         </div>
-    </div>
 
-    <!-- Carousel Mobile -->
-    <div class="carousel-mobile">
-        <div class="carousel carousel-slider" id="carousel">
-            <a class="carousel-item" href="#one!">
-                <img src="image/carousel1m.jpg"
-                class="image-carousel"
-                alt="Clinica de Reabilitação Química e Alcoólica">
-            </a>
-            <a class="carousel-item" href="#two!">
-                <img src="image/carousel2m.jpg"
-                class="image-carousel"
-                alt="Com Especialistas de Alta Qualidade">
-            </a>
-            <a class="carousel-item" href="#three!">
-                <img src="image/carousel3m.jpg"
-                class="image-carousel"
-                alt="Acompanhamento Terapeutico e Psicológico">
-            </a>
-            <a class="carousel-item" href="#four!">
-                <img src="image/carousel4m.jpg"
-                class="image-carousel"
-                alt="Estrutura Moderna e Aconchegante">
-            </a>
-        </div>
-    </div>
-
-    <!--Sobre Nós-->
-    <div class="sobrenos" id="sobre">
-        <h1 id="titulo-sobre">Sobre Nós</h1>
-        <div class="row" id="cards">
-            <div class="col l4 m12 s12" id="card1">
-                <div class="card blue lighten-1">
-                    <div class="card-content white-text">
-                        <span class="card-title"><i class="fas fa-book-medical"></i>&nbsp;<b>Nossa História</b></span>
-                        <p>Com mais de 10 anos no mercado, as Clínicas <b>Viver sem Drogas</b>, é uma clínica especializada no tratamento de dependentes químicos e alcoólatras. Possuímos resultados comprovados de pacientes recuperados em todos os sentidos,
-                            sendo referência nacional no combate e reabilitação da dependência química. Com uma organização especializada no direcionamento e auxilio para internações e tratamentos, ajudando familiares e dependentes.</p>
+        <!--Sobre Nós-->
+        <div class="sobrenos" id="sobre">
+            <h1 id="titulo-sobre">Sobre Nós</h1>
+            <div class="row" id="cards">
+                <div class="col l4 m12 s12" id="card1">
+                    <div class="card blue lighten-1">
+                        <div class="card-content white-text">
+                            <span class="card-title"><i class="fas fa-book-medical"></i>&nbsp;<b>Nossa História</b></span>
+                            <p>Com mais de 10 anos no mercado, as Clínicas <b>Viver sem Drogas</b>, é uma clínica especializada no tratamento de dependentes químicos e alcoólatras. Possuímos resultados comprovados de pacientes recuperados em todos os sentidos,
+                                sendo referência nacional no combate e reabilitação da dependência química. Com uma organização especializada no direcionamento e auxilio para internações e tratamentos, ajudando familiares e dependentes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <div class="card blue" id="card2">
+                        <div class="card-content white-text">
+                            <span class="card-title"><i class="fab fa-gratipay"></i>&nbsp;<b>Visão</b></span>
+                            <p>A <b>Clínica de Recuperação Viver sem Drogas</b> busca tornar-se uma clínica referência em todo o Brasil no tratamento de dependência química e alcoólica. Ter credibilidade e confiança perante nossos familiares e da sociedade,
+                                com respeito e dedicação a vida. A metodologia que utilizamos na clínica é totalmente completa e está sempre sendo atualizada, sempre visando os princípios e valores, respeitando cada indivíduo e suas crenças.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <div class="card blue darken-1" id="card3">
+                        <div class="card-content white-text">
+                            <span class="card-title"><i class="fas fa-bullseye"></i>&nbsp;Objetivo</span>
+                            <p>Nosso objetivo é oferecer soluções no processo de reabilitação tanto de dependentes químicos e alcoólatras, com métodos terapêuticos, solucionando transtornos mentais e emocionais causado pelo vício. Fornecemos soluções diferenciadas
+                                com qualidade superior na busca constante do equilíbrio psicológico, emocional, moral, social, tanto do paciente quanto dos que se encontram sob sua tutela, orientando também os seus familiares em todos os aspectos.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col l4 m12 s12">
-                <div class="card blue" id="card2">
-                    <div class="card-content white-text">
-                        <span class="card-title"><i class="fab fa-gratipay"></i>&nbsp;<b>Visão</b></span>
-                        <p>A <b>Clínica de Recuperação Viver sem Drogas</b> busca tornar-se uma clínica referência em todo o Brasil no tratamento de dependência química e alcoólica. Ter credibilidade e confiança perante nossos familiares e da sociedade,
-                            com respeito e dedicação a vida. A metodologia que utilizamos na clínica é totalmente completa e está sempre sendo atualizada, sempre visando os princípios e valores, respeitando cada indivíduo e suas crenças.</p>
+        </div>
+
+        <!-- Animação -->
+        <div class="animation center" id="animation">
+            <h1 id="titulo-animation">Nos Importamos com Você</h1>
+            <div>
+                <svg
+                    id="heart"
+                    width="324"
+                    height="311"
+                    viewBox="0 0 324 311"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    desc="Coração Pulsando com Amor e Cuidado aos Clientes"
+                    >
+                    <path d="M236.1 0.299988H235.3C204.5 0.299988 177.3 16.6 161.7 40.6C146 16.6 118.8 0.299988 88.1 0.299988H87.3C39.2 0.799988 0.5 39.8 0.5 87.9C0.5 116.6 13.1 157.3 37.6 190.8C84.3 254.6 161.8 310.4 161.8 310.4C161.8 310.4 239.3 254.6 286 190.8C310.5 157.3 323.1 116.6 323.1 87.9C322.9 39.8 284.2 0.699988 236.1 0.299988ZM225.1 195.6C217.9 195.6 211.5 191.1 208.9 184.4H190.5C188 184.4 185.8 182.8 185 180.4L179.3 163.4L161.5 226C160.8 228.5 158.5 230.2 156 230.2H155.6C152.9 230.1 150.7 228.1 150.2 225.4L131.8 114.6L118.3 180.2C117.7 182.8 115.4 184.6 112.7 184.6H86.8C83.6 184.7 80.9 182.3 80.8 179.1C80.7 175.9 83.1 173.2 86.3 173.1C86.5 173.1 86.6 173.1 86.8 173.1H108.2L127.3 84.9C128 81.8 131.2 79.9 134.3 80.6C136.6 81.1 138.3 83 138.7 85.3L157.5 198.4L173.5 142.5C174.2 140.1 176.4 138.4 178.9 138.4H179C181.5 138.4 183.7 140 184.5 142.4L194.7 173.1H208.7C211.7 164 221.5 159.1 230.5 162.1C239.6 165.1 244.5 174.9 241.5 183.9C239.2 190.9 232.6 195.7 225.1 195.6Z" fill="#42A5F5"/>
+                </svg>
+            </div>
+        </div>
+
+        <!--Sobre Nós - Fim-->
+        <h1 id="equipe-titulo">Conheça Nossa Equipe</h1>
+        <!--Equipe-->
+        <div class="equipe-overflow row">
+            <div class="equip-but col l1 m1">
+                <a class="btn-floating blue lighten-1" onclick="leftSlider()" id="btn-slider">
+                    <i class="material-icons">keyboard_arrow_left</i>
+                </a>
+            </div>
+
+            <div class="scroll col l10 m10 s12" id="cards-equipe">
+            <div class="col l3 m3 s12">
+                <div class="card person">
+                    <div class="card-image">
+                        <img src="image/person5b.jpg">
+                        <span class="card-title">Dra. Uslind</span>
+                    </div>
+                    <div class="card-content card-size">
+                        <p>Universidade: U.E.S.C</p>
                     </div>
                 </div>
             </div>
-            <div class="col l4 m12 s12">
-                <div class="card blue darken-1" id="card3">
-                    <div class="card-content white-text">
-                        <span class="card-title"><i class="fas fa-bullseye"></i>&nbsp;Objetivo</span>
-                        <p>Nosso objetivo é oferecer soluções no processo de reabilitação tanto de dependentes químicos e alcoólatras, com métodos terapêuticos, solucionando transtornos mentais e emocionais causado pelo vício. Fornecemos soluções diferenciadas
-                            com qualidade superior na busca constante do equilíbrio psicológico, emocional, moral, social, tanto do paciente quanto dos que se encontram sob sua tutela, orientando também os seus familiares em todos os aspectos.</p>
+
+            <div class="col l3 m3 s12">
+                <div class="card person">
+                    <div class="card-image">
+                        <img src="image/person7b.jpg">
+                        <span class="card-title">Dr. Torewire</span>
+                    </div>
+                    <div class="card-content card-size">
+                        <p>Universidade: P.U.C-SP</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- Animação -->
-    <div class="animation center" id="animation">
-        <h1 id="titulo-animation">Nos Importamos com Você</h1>
-        <div>
-            <svg
-                id="heart"
-                width="324"
-                height="311"
-                viewBox="0 0 324 311"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                desc="Coração Pulsando com Amor e Cuidado aos Clientes"
-                >
-                <path d="M236.1 0.299988H235.3C204.5 0.299988 177.3 16.6 161.7 40.6C146 16.6 118.8 0.299988 88.1 0.299988H87.3C39.2 0.799988 0.5 39.8 0.5 87.9C0.5 116.6 13.1 157.3 37.6 190.8C84.3 254.6 161.8 310.4 161.8 310.4C161.8 310.4 239.3 254.6 286 190.8C310.5 157.3 323.1 116.6 323.1 87.9C322.9 39.8 284.2 0.699988 236.1 0.299988ZM225.1 195.6C217.9 195.6 211.5 191.1 208.9 184.4H190.5C188 184.4 185.8 182.8 185 180.4L179.3 163.4L161.5 226C160.8 228.5 158.5 230.2 156 230.2H155.6C152.9 230.1 150.7 228.1 150.2 225.4L131.8 114.6L118.3 180.2C117.7 182.8 115.4 184.6 112.7 184.6H86.8C83.6 184.7 80.9 182.3 80.8 179.1C80.7 175.9 83.1 173.2 86.3 173.1C86.5 173.1 86.6 173.1 86.8 173.1H108.2L127.3 84.9C128 81.8 131.2 79.9 134.3 80.6C136.6 81.1 138.3 83 138.7 85.3L157.5 198.4L173.5 142.5C174.2 140.1 176.4 138.4 178.9 138.4H179C181.5 138.4 183.7 140 184.5 142.4L194.7 173.1H208.7C211.7 164 221.5 159.1 230.5 162.1C239.6 165.1 244.5 174.9 241.5 183.9C239.2 190.9 232.6 195.7 225.1 195.6Z" fill="#42A5F5"/>
-            </svg>
-        </div>
-    </div>
-
-    <!--Sobre Nós - Fim-->
-    <h1 id="equipe-titulo">Conheça Nossa Equipe</h1>
-    <!--Equipe-->
-    <div class="equipe-overflow row">
-        <div class="equip-but col l1 m1">
-            <a class="btn-floating blue lighten-1" onclick="leftSlider()" id="btn-slider">
-                <i class="material-icons">keyboard_arrow_left</i>
-            </a>
-        </div>
-
-        <div class="scroll col l10 m10 s12" id="cards-equipe">
-          <div class="col l3 m3 s12">
-              <div class="card person">
-                  <div class="card-image">
-                      <img src="image/person5b.jpg">
-                      <span class="card-title">Dra. Uslind</span>
-                  </div>
-                  <div class="card-content card-size">
-                      <p>Universidade: U.E.S.C</p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col l3 m3 s12">
-              <div class="card person">
-                  <div class="card-image">
-                      <img src="image/person7b.jpg">
-                      <span class="card-title">Dr. Torewire</span>
-                  </div>
-                  <div class="card-content card-size">
-                      <p>Universidade: P.U.C-SP</p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col l3 m3 s12">
-              <div class="card person">
-                  <div class="card-image">
-                      <img src="image/person1b.jpg">
-                      <span class="card-title">Enf. Lianka</span>
-                  </div>
-                  <div class="card-content card-size">
-                      <p>Universidade: U.F.G.R.S</p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col l3 m3 s12">
-              <div class="card person">
-                  <div class="card-image">
-                      <img src="image/person8b.jpg">
-                      <span class="card-title">Enf. Bruxo</span>
-                  </div>
-                  <div class="card-content card-size">
-                      <p>Universidade: U.F.M.G</p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col l3 m3 s12">
-              <div class="card person">
-                  <div class="card-image">
-                      <img src="image/person2b.jpg">
-                      <span class="card-title">Enf. Esren</span>
-                  </div>
-                  <div class="card-content card-size">
-                      <p>Universidade: U.N.E.S.P</p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col l3 m3 s12">
-              <div class="card person">
-                  <div class="card-image">
-                      <img src="image/person3b.jpg">
-                      <span class="card-title">Enf. Keoran</span>
-                  </div>
-                  <div class="card-content card-size">
-                      <p>Universidade: U.F.S.C</p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col l3 m3 s12">
-              <div class="card person">
-                  <div class="card-image">
-                      <img src="image/person4b.jpg">
-                      <span class="card-title">Enf. Vieunn</span>
-                  </div>
-                  <div class="card-content card-size">
-                      <p>Universidade: U.F.P.E</p>
-                  </div>
-              </div>
-          </div>
-
-        </div>
-
-        <div class="equip-but col l1 m1">
-            <a class="btn-floating blue lighten-1" onclick="rightSlider()" id="btn-slider">
-                <i class="material-icons">keyboard_arrow_right</i>
-            </a>
-        </div>
-    </div>
-    <!--Equipe - Fim-->
-
-    <!-- Formulário Atendimento -->
-    <div class="row container" id="atendimento">
-        <h1 id="atendimento-titulo">Agende uma consulta</h1>
-        <form class="col l12 m12" id="form" onsubmit="return validateForm()" method="post" name="consulta">
-            <div class="row">
-                <div class="input-field col l6 m6 s12">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="last_name" type="text" class="validate" name="nome" required>
-                    <label for="last_name">Nome</label>
+            <div class="col l3 m3 s12">
+                <div class="card person">
+                    <div class="card-image">
+                        <img src="image/person1b.jpg">
+                        <span class="card-title">Enf. Lianka</span>
+                    </div>
+                    <div class="card-content card-size">
+                        <p>Universidade: U.F.G.R.S</p>
+                    </div>
                 </div>
-                <div class="input-field col l6 m6 s12">
-                    <i class="material-icons prefix">email</i>
-                    <input id="email" type="email" class="validate" required>
-                    <label for="email">Email</label>
-                    <span class="helper-text" data-error="Email Inválido" data-success="Ok!"></span>
+            </div>
+
+            <div class="col l3 m3 s12">
+                <div class="card person">
+                    <div class="card-image">
+                        <img src="image/person8b.jpg">
+                        <span class="card-title">Enf. Bruxo</span>
+                    </div>
+                    <div class="card-content card-size">
+                        <p>Universidade: U.F.M.G</p>
+                    </div>
                 </div>
+            </div>
+
+            <div class="col l3 m3 s12">
+                <div class="card person">
+                    <div class="card-image">
+                        <img src="image/person2b.jpg">
+                        <span class="card-title">Enf. Esren</span>
+                    </div>
+                    <div class="card-content card-size">
+                        <p>Universidade: U.N.E.S.P</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m3 s12">
+                <div class="card person">
+                    <div class="card-image">
+                        <img src="image/person3b.jpg">
+                        <span class="card-title">Enf. Keoran</span>
+                    </div>
+                    <div class="card-content card-size">
+                        <p>Universidade: U.F.S.C</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m3 s12">
+                <div class="card person">
+                    <div class="card-image">
+                        <img src="image/person4b.jpg">
+                        <span class="card-title">Enf. Vieunn</span>
+                    </div>
+                    <div class="card-content card-size">
+                        <p>Universidade: U.F.P.E</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="equip-but col l1 m1">
+                <a class="btn-floating blue lighten-1" onclick="rightSlider()" id="btn-slider">
+                    <i class="material-icons">keyboard_arrow_right</i>
+                </a>
+            </div>
+        </div>
+        <!--Equipe - Fim-->
+
+        <!-- Formulário Atendimento -->
+        <div class="row container" id="atendimento">
+            <h1 id="atendimento-titulo">Agende uma consulta</h1>
+            <form class="col l12 m12" id="form" onsubmit="return validateForm()" method="post" name="consulta">
+                <div class="row">
+                    <div class="input-field col l6 m6 s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="last_name" type="text" class="validate" name="nome" required>
+                        <label for="last_name">Nome</label>
+                    </div>
+                    <div class="input-field col l6 m6 s12">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate" required>
+                        <label for="email">Email</label>
+                        <span class="helper-text" data-error="Email Inválido" data-success="Ok!"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l4 m4 s12">
+                        <i class="material-icons prefix">date_range</i>
+                        <input type="text" class="datepicker">
+                        <label for="date">Data</label>
+                    </div>
+                    <div class="input-field col l4 m4 s12">
+                        <select>
+                            <option value="1">09:00</option>
+                            <option value="2">13:00</option>
+                            <option value="3">17:00</option>
+                        </select>
+                        <label>Horário</label>
+                    </div>
+                    <div class="input-field col l4 m4 s12">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel"
+                        class="validate" name="phone"
+                        pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
+                        placeholder="00-00000-0000"
+                        required>
+                        <label for="icon_telephone">Telefone</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l12 m12 s12">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="textarea2" class="materialize-textarea" data-length="120" name="mensage" required></textarea>
+                        <label for="textarea1">Mensagem</label>
+                    </div>
+                </div>
+            </form>
+            <div class="center-align" id="form">
+                <button class="btn blue lighten-1" type="submit" name="action" onclick="validateForm()" form="form">
+                    Enviar <i class="material-icons right">send</i>
+                </button>
+            </div>
+
+        </div>
+        <!--Atendimento - Fim-->
+
+        <!-- Contate-nos -->
+        <div id="contato" class="row redes">
+            <h1 id="titulo-social">Siga-nos</h1>
+            <div id="social-content row">
+                <div class="col center s12 fb-page" id="facebook" data-href="https://www.facebook.com/clinicaviversemdroga5/" data-tabs="timeline, events, messages" data-small-header="false"s data-hide-cover="false" data-show-facepile="true"></div>
             </div>
             <div class="row">
-                <div class="input-field col l4 m4 s12">
-                    <i class="material-icons prefix">date_range</i>
-                    <input type="text" class="datepicker">
-                    <label for="date">Data</label>
-                </div>
-                <div class="input-field col l4 m4 s12">
-                    <select>
-                        <option value="1">09:00</option>
-                        <option value="2">13:00</option>
-                        <option value="3">17:00</option>
-                    </select>
-                    <label>Horário</label>
-                </div>
-                <div class="input-field col l4 m4 s12">
-                    <i class="material-icons prefix">phone</i>
-                    <input id="icon_telephone" type="tel"
-                    class="validate" name="phone"
-                    pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
-                    placeholder="00-00000-0000"
-                    required>
-                    <label for="icon_telephone">Telefone</label>
+                <h1>Nossas outras redes</h1>
+                <div id="redes-sociais" class="col s12 center">
+                    <a href="https://twitter.com/viversemdroga5"
+                    id="twitter"
+                    target="_blank"
+                    title="Link para Facebook">
+                    <i class="fab fa-twitter row"></i></a>&ensp;&ensp;&ensp;
+                    <a href="https://www.instagram.com/clinicaviversemdrogas/"
+                    id="instagram"
+                    target="_blank"
+                    title="Link para Instagram">
+                    <i class="fab fa-instagram row"></i></a>&ensp;&ensp;&ensp;
                 </div>
             </div>
-            <div class="row">
-                <div class="input-field col l12 m12 s12">
-                    <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="textarea2" class="materialize-textarea" data-length="120" name="mensage" required></textarea>
-                    <label for="textarea1">Mensagem</label>
-                </div>
-            </div>
-        </form>
-        <div class="center-align" id="form">
-            <button class="btn blue lighten-1" type="submit" name="action" onclick="validateForm()" form="form">
-                Enviar <i class="material-icons right">send</i>
-            </button>
         </div>
+        <!--Contate-nos - Fim-->
 
-    </div>
-    <!--Atendimento - Fim-->
-
-    <!-- Contate-nos -->
-    <div id="contato" class="row redes">
-        <h1 id="titulo-social">Siga-nos</h1>
-        <div id="social-content row">
-            <div class="col center s12 fb-page" id="facebook" data-href="https://www.facebook.com/clinicaviversemdroga5/" data-tabs="timeline, events, messages" data-small-header="false"s data-hide-cover="false" data-show-facepile="true"></div>
-            <!--Incorpora publicação específica<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fviversemdroga.com.br%2Fvideos%2F497867357654966%2F&show_text=0&width=476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>-->
-        </div>
-        <div class="row">
-            <h1>Nossas outras redes</h1>
-            <div id="redes-sociais" class="col s12 center">
-                <a href="https://twitter.com/viversemdroga5"
-                id="twitter"
-                target="_blank"
-                title="Link para Facebook">
-                <i class="fab fa-twitter row"></i></a>&ensp;&ensp;&ensp;
-                <a href="https://www.instagram.com/clinicaviversemdrogas/"
-                id="instagram"
-                target="_blank"
-                title="Link para Instagram">
-                <i class="fab fa-instagram row"></i></a>&ensp;&ensp;&ensp;
-            </div>
-        </div>
-    </div>
-    </div>
-    <!--Contate-nos - Fim-->
-
-    <!--Rodapé-->
-    <footer class="page-footer blue lighten-2">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text"><img src="image/logotipo/logotipo-branco.png" id="footer-logotipo"></h5>
-                    <p class="grey-text text-lighten-4">Contate-nos! A equipe <b>Viver Sem Drogas</b> está sempre pronta para ajudar.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Navegação</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#inicio">Início</a></li>
-                        <li class="active"><a href="#sobre" style="color: #eeeeee;">Sobre Nós</a></li>
-                        <li><a href="#atendimento" class="grey-text text-lighten-3">Atendimento</a></li>
-                        <li><a href="#contato" class="grey-text text-lighten-3">Siga-nos</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
+        <!--Rodapé-->
+        <footer class="page-footer blue lighten-2">
             <div class="container">
-                <div class="center-align">
-                    © 2020 Desenvolvido com
-                    <i class="fas fa-heart"></i>
-                    por
-                    <a href="https://www.tecnojr.com.br/"
-                    style="color: white;" target= "-blank">
-                    Tecno Jr</a>.
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text"><img src="image/logotipo/logotipo-branco.png" id="footer-logotipo"></h5>
+                        <p class="grey-text text-lighten-4">Contate-nos! A equipe <b>Viver Sem Drogas</b> está sempre pronta para ajudar.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Navegação</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#inicio">Início</a></li>
+                            <li class="active"><a href="#sobre" style="color: #eeeeee;">Sobre Nós</a></li>
+                            <li><a href="#atendimento" class="grey-text text-lighten-3">Atendimento</a></li>
+                            <li><a href="#contato" class="grey-text text-lighten-3">Siga-nos</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!--Rodapé - Fim-->
-    <!--Scripts-->
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="center-align">
+                        © 2020 Desenvolvido com
+                        <i class="fas fa-heart"></i>
+                        por
+                        <a href="https://www.tecnojr.com.br/"
+                        style="color: white;" target= "-blank">
+                        Tecno Jr</a>.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Rodapé - Fim-->
+        <!--Scripts-->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
 
-    </script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script type="text/javascript" src="js/anime.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/indexMaterial.js"></script>
-    <script type="text/javascript" src="js/valid.js"></script>
-</body>
-
+        </script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script type="text/javascript" src="js/anime.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/indexMaterial.js"></script>
+        <script type="text/javascript" src="js/valid.js"></script>
+    </body>
 </html>

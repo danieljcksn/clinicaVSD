@@ -32,7 +32,6 @@ $(document).ready(function(){
 
 // Animação
 const heart = document.querySelector('#heart')
-
 anime({
   targets: heart,
   scale: 1.1,
