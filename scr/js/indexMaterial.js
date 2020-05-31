@@ -1,10 +1,19 @@
+//Selecionador de data
+$(document).ready(function(){
+  $('.datepicker').datepicker();
+});
 
+//Horário
+$(document).ready(function(){
+  $('select').formSelect();
+});
+
+// Carousel
 $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true,
     duration: 400,
 });
-
 
 autoplay();
 function autoplay() {
@@ -54,13 +63,6 @@ ScrollReveal().reveal('social-content', { delay:700 });
 ScrollReveal().reveal('social-content', { duration: 2000 });
 
 //---------------------------------------------------------------------//
-
-// Inicialização do ScrollsPy
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.scrollspy');
-//     var instances = M.ScrollSpy.init(elems, options);
-//     throttle: 50;
-// });
 
 // FORMS
 $(document).ready(function() {
