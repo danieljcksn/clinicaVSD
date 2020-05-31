@@ -133,49 +133,14 @@ body{
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
 
-// @media only screen and (min-width: 768px) and (max-width: 992px){
-//     .fb-page{
-//         height: 20em;
-//     }
-//
-//     #outras-redes{
-//         height: 38em;
-//     }
-//
-//     #insta_twitter{
-//         height: 19em;
-//         a {
-//             text-decoration: none;
-//             color: #555555;
-//             font-size: 9em;
-//             transition: ease-in-out .5s;
-//             height: 100%;
-//         }
-//     }
-//
-//     .equipe-overflow{
-//         .scroll{
-//             // width: auto;
-//             span{font-size: 1.5em !important;}
-//             p{font-size: 1em !important;}
-//             img{
-//                 width: 100%;
-//                 height: 13em;
-//             }
-//             &::-webkit-scrollbar{display: visible;}
-//       }
-//     }
-//
-//
-//     //Oculta o carousel definido para desktop.
-//     .carousel-desktop{display: none;}
-//     .carousel-mobile{
-//         display: block;
-//     }
-//
-// }
-
 @media only screen and (max-width: 770px){
+    nav .brand-logo {
+        font-size: 1rem;
+    }
+
+    #footer-logotipo {
+        height: 1.5em !important;
+    }
 
     .equipe-overflow{
         .scroll{

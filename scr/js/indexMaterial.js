@@ -1,3 +1,12 @@
+//Selecionador de data
+$(document).ready(function(){
+  $('.datepicker').datepicker();
+});
+
+//Horário
+$(document).ready(function(){
+  $('select').formSelect();
+});
 
 $('.carousel.carousel-slider').carousel({
     fullWidth: true,

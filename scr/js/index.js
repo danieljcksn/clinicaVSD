@@ -19,18 +19,7 @@ if (width <= 768) {
     botaoL.remove()
     botaoR.remove()
     // alert("A resolução da tela do seu monitor é " + width + "x" + height + "");
-
 }
-
-//Selecionador de data
-$(document).ready(function(){
-  $('.datepicker').datepicker();
-});
-
-//Horário
-$(document).ready(function(){
-  $('select').formSelect();
-});
 
 // Animação
 const heart = document.querySelector('#heart')

@@ -143,6 +143,14 @@ body h1 {
 /*M E D I A  Q U E R Y  B R E A K  P O I N T S
 *******************************************************************************************************************/
 @media only screen and (max-width: 770px) {
+  nav .brand-logo {
+    font-size: 1rem;
+  }
+
+  #footer-logotipo {
+    height: 1.5em !important;
+  }
+
   .equipe-overflow .scroll span {
     font-size: 1.5em !important;
   }
